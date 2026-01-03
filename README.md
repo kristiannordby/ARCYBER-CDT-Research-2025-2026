@@ -61,7 +61,7 @@ To address the extreme class imbalance without data duplication, we implement **
 We evaluate three fundamentally different approaches to the classification task:
 
 #### 1. **EmbeddingGemma + Neural Network** (`cyberGemma.ipynb`)
-- **Embedding Model**: Google's [EmbeddingGemma](https://huggingface.co/google/gemma-2b-embedding)
+- **Embedding Model**: Google's [EmbeddingGemma](https://huggingface.co/google/embeddinggemma-300m)
 - **Architecture**: Feed-forward neural network classifier trained on pre-computed embeddings
 - **Input Dimension**: 2048-dimensional embeddings
 - **Advantages**: Computationally efficient inference, separates embedding generation from classification
@@ -332,7 +332,7 @@ This research was conducted as part of the Army Cyber Command capstone program a
 
 ## License
 
-This project is released under the MIT License. See `LICENSE` file for details.
+License terms to be determined. Please contact the project lead for questions regarding usage and distribution.
 
 Models are provided for research and educational purposes. Please review individual model licenses on Hugging Face.
 
